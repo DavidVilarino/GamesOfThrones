@@ -1,0 +1,28 @@
+
+.div-container{
+    background-image: url("../../../public/assets/images/background.svg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     .div-title{
+         margin: 0px;
+         text-align: center;
+        width: 1250px;
+        height: 390px;
+        
+        
+        color:white;
+        .title{
+            margin: 0px;
+            font-family: "Game of Thrones";
+            font-size: 120px;
+            font-weight: lighter;
+        }
+     }
+}

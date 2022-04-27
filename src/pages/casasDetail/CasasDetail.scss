@@ -1,0 +1,90 @@
+.house-div__container {
+    margin: 0 auto;
+    width: 90%;
+    height: 70vh;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Game of Thrones";
+    .row {
+      display: flex;
+      justify-content: center;
+      height: 320px;
+    }
+    .house-figure {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__img {
+        width: 60%;
+        height: 80%;
+      }
+      &__name {
+        width: 400px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: lighter;
+      }
+    }
+    .info-div {
+      display: flex;
+  
+      ::-webkit-scrollbar {
+          width: 4px;
+          background-color: #443d3d;
+        
+        }
+      ::-webkit-scrollbar-thumb {
+          width: 4px;
+          height: 91.3px;
+          background-color: white;
+        }
+      &__words {
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      &__seat {
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      &__region{
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      &__allegiances {
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      &__religions {
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      &__fundation {
+        height: 265px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+     
+  
+      .info-h1 {
+        margin-bottom: 40px;
+        font-size: medium;
+        font-weight: 300;
+        text-align: center;
+      }
+      .info-p {
+        font-family: "dosis";
+        text-align: center;
+      }
+      .info-logo{
+        width: 65%;
+        height: 70%;
+      }
+    }
+  }

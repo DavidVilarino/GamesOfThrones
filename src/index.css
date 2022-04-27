@@ -1,0 +1,13 @@
+
+body {
+  margin: 0;
+  background-color: black;
+}
+@font-face {
+  font-family: "Game of Thrones";
+  src: url("../public/assets/fonts/Game\ of\ Thrones.ttf");
+}
+@font-face {
+  font-family: "dosis";
+  src: url("../public/assets/fonts/Dosis-VariableFont_wght.ttf");
+}

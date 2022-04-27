@@ -1,0 +1,123 @@
+.c-chrono{
+
+    display: flex;
+    align-items: center;
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        max-height: 70vh;
+        position: absolute;
+        top: 7rem;
+        overflow-y: scroll ;
+        overflow-x:hidden;
+        
+    }
+
+
+    ::-webkit-scrollbar{
+        width: 4px;
+        background: #443d3d;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+        height: 85px;
+        background: white;
+        border-radius: 10px;
+    }
+   
+    &__button{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    &__arrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        position: absolute;
+        width: 3.5%;
+    }
+
+
+  
+
+    &__hr{
+        height: 10vh;
+        background-color: white;
+        width: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+
+
+    &__vector{
+        transform: rotate(180deg);
+        height: 4vh;
+      
+
+        &--invert{
+            transform: rotate(360deg);
+            height: 4vh;
+        }
+    }
+
+    &__hr2{ //linea vertical
+        margin: 0;
+        background-color:white;
+        width: 0.2vw;
+        border: none;
+    }
+
+    &__images{
+        display: flex;
+        position: relative;
+        top: 14vh;
+    } 
+
+    &__column{
+        text-align: center;
+        width: 50%;
+       
+
+        &--right{
+            text-align: center;
+            margin-top: 15%;
+            
+        }
+    }
+
+    &__character{ //lineas laterales
+        border-top: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Game Of Thrones";
+        
+    }
+
+    &__info{
+        margin: 1%;
+        color: white;
+    }
+
+    &__photo{
+        width: 30%;
+        height: 10vh;
+        border-radius: 100%;
+        margin-bottom:60%;
+    }
+}

@@ -1,0 +1,19 @@
+.b-div__container{
+    width: 750px;
+    height: 50px;
+    position:absolute;
+    top: 40px;
+    left: 90px;
+    .b-input{
+        background: url("../../../public/assets/icons/search-icon.svg") no-repeat;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        background-color: none;
+        border: none;
+        border-bottom: 2px solid white;
+        width: 690px;
+        color: white;
+        font-size: larger;
+        
+    }
+}

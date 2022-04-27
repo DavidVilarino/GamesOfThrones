@@ -1,0 +1,20 @@
+export const en = {
+    'CASA' : 'House',
+    'PERSONAJES' : 'Characters',
+    'CRONOLOGIA' : 'Timeline',
+    'CASAS' : 'HOUSES',
+    'ALIANZAS' : 'Allegiances',
+    'APARICIONES' : 'Appearances',
+    'PADRE' : 'father', 
+    'DESCENDIENTES' : 'Siblings' ,
+    'TITULOS' : 'Titles',
+    'JUEGO DE TRONOS' : 'GAME OF THRONES',
+    'LEMA' : 'Words',
+    'SEDE' : 'Seat',
+    'REGION' : 'Region',
+    'RELIGIONES' : 'Religions',
+    'FUNDACION' : 'Fundation',
+    'Volver' : 'Back',
+    'Buscar...' : 'Search...',
+
+}

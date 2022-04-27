@@ -1,0 +1,11 @@
+.flags {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  top: 2.66vh;
+  right: 20.68vh;
+
+  .sp-flag {
+    padding-right: 20px;
+  }
+}

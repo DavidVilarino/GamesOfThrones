@@ -1,0 +1,31 @@
+.div-navBar{
+    left: 40px;
+    position: absolute;
+    width: 90%;
+    height: 64px;
+    bottom: 50px;
+    /*
+    align-items: center;*/
+    
+    .ul-navBar{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+        .li-navBar{
+            /*margin: 0px 50px*/
+        }
+
+          .link{
+            color:white;
+            font-size: 26px;
+            font-family: "Game of Thrones";
+            text-decoration: none;
+            &:hover{
+                margin-bottom: 10px;
+                
+
+            }
+        }
+    }
+}
